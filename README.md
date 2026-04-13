@@ -18,7 +18,7 @@ A secure, scalable, and production-ready text analysis service deployed on Googl
                                 │                        │
                                 ▼                        │
 ┌─────────────────┐    ┌─────────────────┐               │
-│   External      │───▶│   Cloud Run     │◀────────────┘
+│   External      │──▶│   Cloud Run     │◀────────────┘
 │   Client        │    │    Service      │
 │ (Authenticated) │    │ (Private Access)│
 └─────────────────┘    └─────────────────┘
