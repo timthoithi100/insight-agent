@@ -6,7 +6,7 @@ A secure, scalable, and production-ready text analysis service deployed on Googl
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   GitHub Repo   │───▶│  GitHub Actions │───▶│  Artifact Reg   │
+│   GitHub Repo   │──▶│  GitHub Actions │──▶│  Artifact Reg   │
 │                 │    │     CI/CD       │    │                 │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
                                 │                        │
@@ -18,7 +18,7 @@ A secure, scalable, and production-ready text analysis service deployed on Googl
                                 │                        │
                                 ▼                        │
 ┌─────────────────┐    ┌─────────────────┐               │
-│   External      │───▶│   Cloud Run     │◀──────────────┘
+│   External      │───▶│   Cloud Run     │◀────────────┘
 │   Client        │    │    Service      │
 │ (Authenticated) │    │ (Private Access)│
 └─────────────────┘    └─────────────────┘
@@ -26,7 +26,7 @@ A secure, scalable, and production-ready text analysis service deployed on Googl
                                 ▼
                        ┌─────────────────┐
                        │  Service Account│
-                       │ (Least Privilege)│
+                       │(Least Privilege)│
                        └─────────────────┘
 ```
 
